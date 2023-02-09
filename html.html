@@ -76,7 +76,7 @@
             <td>6475869085</td>
         </tr>
         <tr>
-            <td>90876530</td>
+            <td>9087659930</td>
         </tr>
     </table>
 
@@ -93,5 +93,122 @@
         <li>Mango</li>
         <li>Banana</li>
     </ol>
+
+    <p class="demo demo2">Class attribute</p>
+    <p class="demo">Class attribute</p>
+
+    <p id="dummy">Id attribute</p>
+
+    <form>
+        <label>name :</label>
+        <input type="text" placeholder="Enter a name" required><br><br>
+
+        <label>email :</label>
+        <input type="text" placeholder="Enter a email" required><br><br>
+
+        <label>password :</label>
+        <input type="password" placeholder="Enter a password" required><br><br>
+
+        <input type="file" required><br><br>
+
+        <select>
+            <option value="">Select a item</option>
+            <option value="ford">Ford</option>
+            <option value="bmw">BMW</option>
+            <option value="audi">Audi</option>
+            
+        </select><br><br>
+
+            <input type ="submit" value="submit">
+
+    </form><br><br>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/iVAL0uB4hSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>"<br><br>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.5091477581204!2d74.99353481474137!3d13.06688589079337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba4aba5ff0b324f%3A0x93f378577a211484!2sAccelerlab%20Solutions%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1675850020160!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <p id="demo" style="font-size: 25px; text-align: center; margin-bottom: 100px;"></p>
+
+    <button onclick="myFunction(30,15)">Click Here</button>
+
+    <button onclick="myFunction(100,150)">Add More</button>
+
+    <button onclick="myFunction(150,150)">Click</button>
+
+    <script>
+
+        function myFunction(x,y) {
+            if(x > y) {
+                console.log("x is greater");
+            }
+            else if(x === y){
+                console.log("x is equal to y");
+            }
+            else{
+                console.log("y is greater");
+            }
+            // console.log(x+y);
+        }
+        let a = 5;
+        var b = 10;
+        const c = 15;
+
+        var x =50;
+        x +=5;
+        // console.log(x);
+
+        var str1 = "Motu";
+        var str2 = "Alva";
+        var str3 = "5";
+
+        var bool = true;
+
+        var obj = { name: "acce", year: 2019, color: "orange"};
+
+        var arr = [1, 2, 3, "hello", "world"];
+
+        arr.pop();
+        console.log(arr);
+        arr.push("mango");
+        console.log(arr);
+
+        // console.log(arr.join("/"));
+
+        var date = new Date();
+
+        // console.log(date);
+
+
+        // console.log(b === 5 && b!==5);
+        // console.log(b === 5 || b!==5);
+        // console.log(!(a === 5));
+        // console.log(!(a ===10));
+
+        // console.log(b === 5);
+        // console.log(b !== 5);
+        // console.log(b < 5);
+        // console.log(b > 5);
+        // console.log(b <= 5);
+        // console.log(b >= 5);
+
+        // console.log(a === str3);
+
+
+        // console.log(str1+" "+str2);
+
+        // console.log(b+" "+str1);
+
+        // console.log(a+b+c);
+        // console.log(a-c);
+        // console.log(b*c);
+        // console.log(a/b);
+        // console.log(a%b);
+
+        document.getElementById("demo").innerHTML="Hello World!!";
+    </script>
+
+    <noscript>Sorry, your browser does not support script.</noscript>
+    
+
 </body>
 </html>
